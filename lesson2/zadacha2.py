@@ -3,3 +3,11 @@
 # Пример:
 
 # - пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
+
+import math
+
+n = int(input())
+
+p = math.factorial(n)
+
+print(p)
