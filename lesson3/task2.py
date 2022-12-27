@@ -11,7 +11,7 @@ list_num = [randint(0, 10) for i in range(randint(5, 10))]
 print(list_num)
 
 final = []
-mid = len(list_num)//2 + len(list_num)%2
+mid = len(list_num)//2 + len(list_num) % 2
 
 
 for i in range(mid):
