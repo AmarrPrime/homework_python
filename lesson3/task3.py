@@ -7,11 +7,8 @@
 
 import random
 
-
-
 def real(num):
     return round(num % 1, 2)
-
 
 a = [round(random.uniform(0, 10), 2) for i in range(random.randint(0, 10))]
 print(a)
